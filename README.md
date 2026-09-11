@@ -1,6 +1,6 @@
 # pranavhere01.github.io
 
-Personal site of Pranav Kumar, Founder & CEO, Saarthi. A continuous-scroll portfolio for recruiters: one page, one stylesheet, no JavaScript, framework or build step.
+Personal site of Pranav Kumar, Founder & CEO of Saarthi. A continuous-scroll portfolio: founder first, then the companies and products around that work.
 
 ```
 index.html              Complete portfolio: hero and impact, work, experience, story, now, contact
