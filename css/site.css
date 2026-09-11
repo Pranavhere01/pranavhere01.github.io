@@ -53,6 +53,10 @@ body {
 h1, h2, h3, h4, p, dl, dt, dd, ul, ol, figure, blockquote, address { margin: 0; }
 ul, ol { padding: 0; list-style: none; }
 img { display: block; max-width: 100%; height: auto; }
+.school-logo, .brand-cta-logo, .product-title > img, .school-heading > img {
+  max-width: none;
+  height: auto;
+}
 address { font-style: normal; }
 button, input, textarea { font: inherit; }
 h1, h2, h3 { text-wrap: balance; }
@@ -134,9 +138,9 @@ a:hover { color: var(--indigo-deep); text-decoration-color: var(--saffron); }
 .hero h1 { font-size: clamp(38px, 4.8vw, 68px); font-weight: 700; line-height: 1.08; letter-spacing: -.052em; }
 .hero h1 span { color: var(--indigo); }
 .hero .lead { margin-top: 26px; font-size: clamp(16px, 1.5vw, 18px); }
-.hero-context { margin-top: 18px; color: var(--muted-2); font-size: 14px; display: flex; flex-wrap: wrap; align-items: center; gap: 8px 10px; }
-.hero-school { display: inline-flex; align-items: center; gap: 8px; }
-.school-logo { width: 28px; height: 28px; flex: 0 0 auto; }
+.hero-context { margin-top: 18px; color: var(--muted-2); font-size: 14px; display: flex; flex-wrap: wrap; align-items: center; gap: 8px 12px; }
+.hero-school { display: inline-flex; align-items: center; gap: 10px; }
+.school-logo { width: 44px; height: 44px; flex: 0 0 44px; }
 .hero-actions { margin-top: 30px; display: flex; flex-wrap: wrap; align-items: center; gap: 16px 24px; }
 .hero-media { width: min(100%, 360px); justify-self: end; padding: 10px 8px 16px; }
 .portrait-frame { position: relative; padding: 10px; border: 1px solid rgba(212, 166, 74, .55); border-radius: 18px; background: var(--white); transform: rotate(2deg); box-shadow: 0 12px 32px rgba(27, 26, 46, .08); }
