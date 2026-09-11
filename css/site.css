@@ -179,6 +179,9 @@ h3 { font-size: 29px; font-weight: 620; line-height: 1.2; letter-spacing: -.035e
 .outcomes strong { color: var(--ink); font-weight: 600; }
 .project-links { display: flex; flex-wrap: wrap; align-items: center; gap: 12px 24px; margin-top: 24px; font-size: 14px; }
 .project-links a { font-weight: 600; }
+.brand-cta { display: inline-flex; align-items: center; gap: 10px; text-decoration: none; }
+.brand-cta:hover { text-decoration: underline; }
+.brand-cta-logo { width: 26px; height: 26px; flex: 0 0 auto; }
 .impact-panel { padding: clamp(24px, 3vw, 40px); background: var(--lavender); border: 1px solid #DDDAED; border-radius: 16px; }
 .impact-panel > .eyebrow { margin-bottom: 20px; color: var(--indigo); }
 .impact-panel h4 { font-size: 23px; line-height: 1.25; letter-spacing: -.03em; }
