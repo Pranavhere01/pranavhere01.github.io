@@ -1,0 +1,107 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="Saarthi: Krishna driving Arjuna's chariot">
+  <defs>
+    <radialGradient id="sky" cx="50%" cy="38%" r="70%">
+      <stop offset="0" stop-color="#4B47B5"/>
+      <stop offset="0.6" stop-color="#2A2878"/>
+      <stop offset="1" stop-color="#15143F"/>
+    </radialGradient>
+    <radialGradient id="sun" cx="50%" cy="50%" r="50%">
+      <stop offset="0" stop-color="#FFE7A8"/>
+      <stop offset="0.55" stop-color="#F3B84A"/>
+      <stop offset="1" stop-color="#E4862B"/>
+    </radialGradient>
+    <linearGradient id="gold" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#F3CF6C"/>
+      <stop offset="1" stop-color="#C9932A"/>
+    </linearGradient>
+    <linearGradient id="wood" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#D9A24A"/>
+      <stop offset="1" stop-color="#9C6421"/>
+    </linearGradient>
+    <clipPath id="badge"><circle cx="256" cy="256" r="244"/></clipPath>
+  </defs>
+
+  <!-- badge -->
+  <circle cx="256" cy="256" r="248" fill="url(#sky)"/>
+  <circle cx="256" cy="256" r="236" fill="none" stroke="url(#gold)" stroke-width="6"/>
+  <g opacity="0.12" stroke="#FFFFFF" stroke-width="2" fill="none">
+    <circle cx="256" cy="256" r="200"/><circle cx="256" cy="256" r="160"/>
+  </g>
+
+  <g clip-path="url(#badge)">
+    <!-- sun -->
+    <circle cx="312" cy="176" r="86" fill="url(#sun)"/>
+    <g stroke="#F3B84A" stroke-width="3" opacity="0.5" stroke-linecap="round">
+      <line x1="312" y1="60" x2="312" y2="40"/><line x1="312" y1="292" x2="312" y2="312"/>
+      <line x1="196" y1="176" x2="176" y2="176"/><line x1="428" y1="176" x2="448" y2="176"/>
+      <line x1="230" y1="94" x2="216" y2="80"/><line x1="394" y1="258" x2="408" y2="272"/>
+      <line x1="394" y1="94" x2="408" y2="80"/><line x1="230" y1="258" x2="216" y2="272"/>
+    </g>
+    <!-- ground -->
+    <path d="M0 418 Q 256 392 512 418 L 512 512 L 0 512 Z" fill="#100F33"/>
+    <path d="M0 424 Q 256 400 512 424" fill="none" stroke="#C9932A" stroke-width="3" opacity="0.6"/>
+  </g>
+
+  <!-- horse (leaping left) -->
+  <g stroke-linecap="round" stroke-linejoin="round">
+    <path d="M186 322 Q 220 300 214 344" fill="none" stroke="#F3EBDD" stroke-width="9"/>
+    <ellipse cx="132" cy="332" rx="62" ry="29" fill="#F3EBDD"/>
+    <path d="M96 318 L 66 264 L 90 256 L 120 306 Z" fill="#F3EBDD"/>
+    <path d="M70 262 L 34 276 L 36 292 L 62 290 L 76 300 Z" fill="#F3EBDD"/>
+    <path d="M78 258 L 84 240 L 94 260 Z" fill="#F3EBDD"/>
+    <path d="M88 262 Q 108 256 118 302" fill="none" stroke="url(#gold)" stroke-width="7"/>
+    <circle cx="52" cy="276" r="3.5" fill="#15143F"/>
+    <g stroke="#F3EBDD" stroke-width="10" fill="none">
+      <path d="M102 356 L 88 384 L 80 410"/><path d="M124 358 L 122 386 L 118 412"/>
+      <path d="M152 356 L 160 384 L 170 408"/><path d="M172 350 L 188 376 L 200 400"/>
+    </g>
+  </g>
+
+  <!-- pole and reins -->
+  <line x1="238" y1="342" x2="112" y2="330" stroke="url(#wood)" stroke-width="8" stroke-linecap="round"/>
+  <path d="M202 318 Q 150 296 74 286" fill="none" stroke="#E9D8A6" stroke-width="3"/>
+
+  <!-- chariot -->
+  <path d="M236 318 L 402 310 Q 424 310 424 332 L 414 374 L 258 376 Q 232 376 236 352 Z" fill="url(#wood)"/>
+  <path d="M236 318 Q 214 300 226 266" fill="none" stroke="url(#gold)" stroke-width="9" stroke-linecap="round"/>
+  <rect x="246" y="326" width="164" height="8" rx="4" fill="url(#gold)" opacity="0.8"/>
+  <!-- flag -->
+  <line x1="408" y1="312" x2="408" y2="196" stroke="url(#wood)" stroke-width="5" stroke-linecap="round"/>
+  <path d="M408 196 L 474 214 L 408 236 Z" fill="#E4862B"/>
+  <!-- wheel -->
+  <circle cx="334" cy="386" r="54" fill="none" stroke="url(#gold)" stroke-width="10"/>
+  <g stroke="url(#gold)" stroke-width="6" stroke-linecap="round">
+    <line x1="334" y1="340" x2="334" y2="432"/><line x1="288" y1="386" x2="380" y2="386"/>
+    <line x1="301" y1="353" x2="367" y2="419"/><line x1="367" y1="353" x2="301" y2="419"/>
+  </g>
+  <circle cx="334" cy="386" r="12" fill="#F3CF6C"/>
+  <circle cx="334" cy="386" r="5" fill="#15143F"/>
+
+  <!-- Krishna, the charioteer (front, seated, holding the reins) -->
+  <g>
+    <path d="M244 282 L 282 282 L 292 330 L 238 330 Z" fill="#F2C94C"/>
+    <path d="M246 296 L 204 318" stroke="#3D6BD8" stroke-width="11" stroke-linecap="round"/>
+    <circle cx="204" cy="318" r="6" fill="#3D6BD8"/>
+    <circle cx="263" cy="260" r="19" fill="#3D6BD8"/>
+    <path d="M244 258 Q 263 232 282 258 Z" fill="url(#gold)"/>
+    <path d="M256 240 L 263 226 L 270 240 Z" fill="#F3CF6C"/>
+    <path d="M272 236 Q 286 206 300 214 Q 292 232 276 244 Z" fill="#2FA37A"/>
+    <circle cx="291" cy="217" r="4" fill="#15143F"/><circle cx="291" cy="217" r="2" fill="#4FC3F7"/>
+    <path d="M254 268 Q 263 274 272 268" fill="none" stroke="#15143F" stroke-width="2" stroke-linecap="round"/>
+  </g>
+
+  <!-- Arjuna, the archer (behind, standing, bow drawn) -->
+  <g>
+    <path d="M326 184 Q 270 250 326 316" fill="none" stroke="url(#gold)" stroke-width="6" stroke-linecap="round"/>
+    <line x1="326" y1="184" x2="326" y2="316" stroke="#F3EBDD" stroke-width="2"/>
+    <line x1="312" y1="250" x2="358" y2="250" stroke="#F3EBDD" stroke-width="2.5"/>
+    <path d="M312 245 L 298 250 L 312 255 Z" fill="#F3EBDD"/>
+    <path d="M342 240 L 380 240 L 390 318 L 334 318 Z" fill="#B23A48"/>
+    <path d="M350 264 L 322 252" stroke="#C58C5A" stroke-width="11" stroke-linecap="round"/>
+    <path d="M374 264 L 356 252" stroke="#C58C5A" stroke-width="11" stroke-linecap="round"/>
+    <circle cx="361" cy="220" r="18" fill="#C58C5A"/>
+    <path d="M343 218 Q 361 194 379 218 Z" fill="url(#gold)"/>
+    <circle cx="361" cy="196" r="6" fill="#F3CF6C"/>
+    <path d="M352 226 Q 361 232 370 226" fill="none" stroke="#15143F" stroke-width="2" stroke-linecap="round"/>
+  </g>
+</svg>
