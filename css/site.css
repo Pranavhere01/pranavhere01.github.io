@@ -152,8 +152,8 @@ a:hover { color: var(--indigo-deep); text-decoration-color: var(--saffron); }
 .proof > div:first-child { padding-left: 0; }
 .proof > div:last-child { padding-right: 0; }
 .proof > div + div { border-left: 1px solid var(--line); }
-.proof dt { color: var(--indigo); font-size: clamp(23px, 2.7vw, 36px); font-weight: 620; line-height: 1.15; letter-spacing: -.045em; font-variant-numeric: tabular-nums; }
-.proof dt span { display: inline; margin-left: .22em; font-size: .62em; letter-spacing: -.02em; font-weight: 600; }
+.proof dt { color: var(--indigo); font-size: clamp(23px, 2.7vw, 36px); font-weight: 620; line-height: 1.15; letter-spacing: -.03em; font-variant-numeric: lining-nums; }
+.proof dt span { display: inline; margin-left: .22em; }
 .proof dd { margin-top: 8px; color: var(--muted); font-size: 13px; line-height: 1.5; }
 .proof dd strong { color: var(--ink); font-weight: 600; }
 .proof dd span { display: block; }
@@ -366,8 +366,8 @@ h3 { font-size: 29px; font-weight: 620; line-height: 1.2; letter-spacing: -.035e
   .small-project, .small-project + .small-project { padding: 24px 0; border-left: 0; }
   .small-project + .small-project { border-top: 1px solid var(--line); }
   .small-project > p:not(.eyebrow):not(.stack):not(.project-links) { font-size: 14px; }
-  .btn-primary { width: 100%; }
-  .hero-actions { flex-direction: column; align-items: stretch; }
+  .btn-primary { width: auto; max-width: 100%; }
+  .hero-actions { flex-direction: row; flex-wrap: wrap; align-items: center; }
   .hero-actions .text-link { min-height: 44px; display: inline-flex; align-items: center; }
   .contact { text-align: left; }
   .contact h2 { font-size: clamp(28px, 8vw, 34px); }
