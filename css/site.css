@@ -53,7 +53,7 @@ body {
 h1, h2, h3, h4, p, dl, dt, dd, ul, ol, figure, blockquote, address { margin: 0; }
 ul, ol { padding: 0; list-style: none; }
 img { display: block; max-width: 100%; height: auto; }
-.school-logo, .brand-cta-logo, .product-title > img, .school-heading > img {
+.school-logo, .brand-cta-logo, .product-title > img, .school-heading > img, .org-title > img {
   max-width: none;
   height: auto;
 }
@@ -197,8 +197,9 @@ h3 { font-size: 29px; font-weight: 620; line-height: 1.2; letter-spacing: -.035e
 .deployment-stats dt { color: var(--indigo); font-size: clamp(25px, 3vw, 38px); font-weight: 620; line-height: 1.1; letter-spacing: -.05em; }
 .deployment-stats dt span { display: block; margin-top: 6px; font-size: 14px; line-height: 1.5; letter-spacing: -.01em; font-weight: 500; }
 .deployment-stats dd { max-width: 320px; margin-top: 8px; color: var(--muted); font-size: 13px; line-height: 1.5; }
-.panel-footnote { margin-top: 24px; padding-top: 20px; border-top: 1px solid #D8D5E9; color: var(--muted); font-size: 14px; line-height: 1.7; }
+.panel-footnote { margin-top: 24px; padding-top: 20px; border-top: 1px solid #D8D5E9; color: var(--muted); font-size: 14px; line-height: 1.7; display: flex; flex-wrap: wrap; align-items: center; gap: 10px 12px; }
 .panel-footnote strong { color: var(--indigo); }
+.neon-logo { height: 18px; width: auto; max-width: 96px; flex: 0 0 auto; display: block; }
 .product-title { display: flex; align-items: center; gap: 14px; }
 .product-title > img { width: 48px; height: 48px; flex: 0 0 auto; }
 .product-title h3 :lang(hi) { font-size: .85em; font-weight: 500; }
@@ -239,6 +240,10 @@ h3 { font-size: 29px; font-weight: 620; line-height: 1.2; letter-spacing: -.035e
 .timeline > li::before, .timeline > article::before, .timeline > div::before { content: ""; position: absolute; top: 32px; left: 0; width: 6px; height: 6px; border-radius: 50%; background: var(--gold); }
 .timeline-date { margin-bottom: 9px; color: var(--muted-2); font-family: var(--font-mono); font-size: 11px; line-height: 1.5; }
 .timeline h3 { font-size: 20px; letter-spacing: -.025em; }
+.org-title { display: flex; align-items: center; gap: 10px; }
+.org-title > img { width: 36px; height: 36px; flex: 0 0 36px; object-fit: contain; }
+.eyebrow.org-title { gap: 8px; margin-bottom: 12px; }
+.eyebrow.org-title > img { width: 22px; height: 22px; flex: 0 0 22px; }
 .timeline > li > p:not(.timeline-date):not(.timeline-role) { margin-top: 9px; color: var(--muted); font-size: 14px; line-height: 1.65; }
 .timeline-role { margin-top: 6px; color: var(--ink); font-size: 14px; font-weight: 500; }
 .company-note { margin-top: 7px; color: var(--muted); font-size: 14px; line-height: 1.65; }
